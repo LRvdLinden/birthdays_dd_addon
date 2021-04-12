@@ -23,51 +23,30 @@ Birtdays in Home Assistant Dwains Dashboard
      - name: Birthdays
        main_menu: 'true' #Show this addon in the main navigation bar!
        icon: fas:gifts
-       path: 'dwains-dashboard/addons/more_page/uptimerobot/page.yaml'
+       path: 'dwains-dashboard/addons/more_page/birthdays/page.yaml'
 ```
 - Reload the theme configuration via Theme Settings
 
 ### Replace the following
  ```yaml
-     - type: 'custom:uptime-card'
-       entity: binary_sensor. # <-vul de sensor aan
-       icon: 'fas:safari'
-       name: cloud.....nl
-       hours_to_show: 72
-       status_adaptive_color: true
-       average_text: '% uptime'
-         alias:
-           ok: Online
-           ko: Offline
-         color:
-           icon: white
-           ok: '#45C669'
-           ko: '#C6B145'
-           half: '#C66445'
-           none: '#C9C9C9'
-           title: white
-         show:
-           header: true
-           title: true
-           icon: true
-           footer: true
-           status: true
-           timeline: true
-           average: true
-         tooltip:
-            animation: true
-          #tap_action:
-            #action: url
-            #url: 'https://'
+            - type: custom:atomic-calendar-revive
+              style: |
+                ha-card {
+                  border-radius: 5px;
+                  background-color: var(--dwains-theme-primary);
+                }
+                .cal-titleContainer {
+                  display: none;
+                }
+              showProgressBar: false
+              eventBarColor: 'var(--dwains-theme-grey)'
+              dayWrapperLineColor: 'var(--dwains-theme-grey)'
+              timeColor: 'var(--dwains-theme-grey)'
+              entities:
+                - calendar.friends_birthdays
 ```
-- add the correct `binary_sensor` to monitor
-- fill in the correct `name:`
-- add the `icon:` that you want to have
-- when you want to use the `tap-action` function, delete `#` and fill in the `url: 'https/'` to the function
-- when you want to monitor shorter or longer then 3 days, change the value `hours_to_show:`
-- change the `alias:` `ok:` `ko:` name into `online`, `offline`, `up` or `down`
-- copy the above string if you need more cards for more `binary_sensor`
+- on line 60: add the correct `entity` or `entities` to show
 
 
 ### Result
-![uptimerobot](https://user-images.githubusercontent.com/77990847/114383489-e59e8f80-9b8d-11eb-838f-a3caa9539f61.png)
+
