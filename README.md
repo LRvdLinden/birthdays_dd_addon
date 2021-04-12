@@ -6,8 +6,8 @@ Birtdays in Home Assistant Dwains Dashboard
 ![uptimerobot](https://www.iphonelife.com/sites/iphonelife.com/files/memoji_0.jpg)
 
 ### Prerequisite
-- Make a free [UptimeRobot](https://uptimerobot.com/) account and config what you want to monitor 
-- Make sure you have installed the lovelace [uptime-card](https://github.com/dylandoamaral/uptime-card) and [fontawesome icons](https://github.com/thomasloven/hass-fontawesome)
+- Make sure you have the [Google Calendar Event](https://www.home-assistant.io/integrations/calendar.google/) integration
+- Make a calendar in Google with all the birthdays
 
 ### Make Home Assistant intergration 
 - Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
