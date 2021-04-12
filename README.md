@@ -1,7 +1,7 @@
 
 # Birthdays Dwains Dashboard Add-on (more_page)
 Birtdays in Home Assistant Dwains Dashboard
-##### Created by Léon van der Linden
+##### Created by [Léon van der Linden](https://github.com/LRvdLinden)
 ##### v1.0.0
 
 ![uptimerobot](https://www.iphonelife.com/sites/iphonelife.com/files/memoji_0.jpg)
