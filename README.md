@@ -14,14 +14,15 @@ Birtdays in Home Assistant Dwains Dashboard
        client_secret: YOUR_CLIENT_SECRET
 ```
 - Make a calendar in Google with all the birthdays and sync the calendar with Home Assistant
-
+- Make sure you have installed [fontawesome icons](https://github.com/thomasloven/hass-fontawesome). This can be done manually or directly via hacs.
 
 ### Installation Add-on
-- Copy the `uptimerobot` folder in to the `dwains-dashboard/addons/more_page` directory.
+- Copy the `birthdays` folder in to the `dwains-dashboard/addons/more_page` directory.
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
  ```yaml
      - name: Birthdays
-       icon: fas:cloud-upload-alt
+       main_menu: 'true' #Show this addon in the main navigation bar!
+       icon: fas:gifts
        path: 'dwains-dashboard/addons/more_page/uptimerobot/page.yaml'
 ```
 - Reload the theme configuration via Theme Settings
