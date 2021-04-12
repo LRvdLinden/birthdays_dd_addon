@@ -1,4 +1,4 @@
-![IMG_0544](https://user-images.githubusercontent.com/77990847/114402640-52bd1f80-9ba4-11eb-990e-7a04642bd641.PNG)
+
 # Birthdays Dwains Dashboard Add-on (more_page)
 Birtdays in Home Assistant Dwains Dashboard
 ##### Created by Léon van der Linden
@@ -51,3 +51,4 @@ Birtdays in Home Assistant Dwains Dashboard
 
 ### Result
 
+![IMG_0544](https://user-images.githubusercontent.com/77990847/114402640-52bd1f80-9ba4-11eb-990e-7a04642bd641.PNG)
