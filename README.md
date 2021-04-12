@@ -7,24 +7,20 @@ Birtdays in Home Assistant Dwains Dashboard
 
 ### Prerequisite
 - Make sure you have the [Google Calendar Event](https://www.home-assistant.io/integrations/calendar.google/) integration
-- Make a calendar in Google with all the birthdays
-
-### Make Home Assistant intergration 
-- Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
-- Restart Home Assistant
- ```yaml
+```yaml
      # Example configuration.yaml entry
-     binary_sensor:
-       - platform: uptimerobot
-         api_key: YOUR_API_KEY
+     google:
+       client_id: YOUR_CLIENT_ID
+       client_secret: YOUR_CLIENT_SECRET
 ```
-- Restart Home Assistant
+- Make a calendar in Google with all the birthdays and sync the calendar with Home Assistant
+
 
 ### Installation Add-on
 - Copy the `uptimerobot` folder in to the `dwains-dashboard/addons/more_page` directory.
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
  ```yaml
-     - name: UptimeRobot
+     - name: Birthdays
        icon: fas:cloud-upload-alt
        path: 'dwains-dashboard/addons/more_page/uptimerobot/page.yaml'
 ```
