@@ -1,8 +1,25 @@
+<h1 align="center">Birthdays Dwains Dashboard Add-on (more_page)</h1>
 
-# Birthdays Dwains Dashboard Add-on (more_page)
-Birtdays in Home Assistant Dwains Dashboard
-##### Created by [Léon van der Linden](https://github.com/LRvdLinden)
-##### v1.0.0
+<p align="center">
+  <a href="https://dwainscheeren.github.io/dwains-lovelace-dashboard/">
+    <img src="https://img.shields.io/badge/Dwains%20Dashboard-Default-orange.svg" />
+  </a>
+  <a href="https://github.com/custom-components/hacs">
+    <img src="https://img.shields.io/badge/HACS-Default-orange.svg" />
+  </a>
+  <a href="https://github.com/LRvdLinden/LRvdLinden/birthdays_dd_addon">
+    <img src="https://img.shields.io/github/v/release/LRvdLinden/LRvdLinden/birthdays_dd_addon" />
+  </a>
+  <a href="https://github.com/LRvdLinden/LRvdLinden/birthdays_dd_addon">
+    <img src="https://img.shields.io/github/commit-activity/m/LRvdLinden/LRvdLinden/birthdays_dd_addon" />
+  </a>
+</p>
+
+<p align="center">Present Birtdays in a nice way.</p>
+
+<p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
+</p> 
+
 
 ![uptimerobot](https://www.iphonelife.com/sites/iphonelife.com/files/memoji_0.jpg)
 
