@@ -28,7 +28,8 @@
 
 ![uptimerobot](https://www.iphonelife.com/sites/iphonelife.com/files/memoji_0.jpg)
 
-### Prerequisite
+## Prerequisite
+---
 - Make sure you have the [Google Calendar Event](https://www.home-assistant.io/integrations/calendar.google/) integration
 ```yaml
      # Example configuration.yaml entry
@@ -39,7 +40,8 @@
 - Make a calendar in Google with all the birthdays and sync the calendar with Home Assistant
 - Make sure you have installed [fontawesome icons](https://github.com/thomasloven/hass-fontawesome). This can be done manually or directly via hacs.
 
-### Installation Add-on
+## Installation Add-on
+---
 - Copy the `birthdays` folder in to the `dwains-dashboard/addons/more_page` directory.
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
  ```yaml
@@ -50,7 +52,8 @@
 ```
 - Reload the theme configuration via Theme Settings
 
-### Replace the following
+## Replace the following
+---
  ```yaml
             - type: custom:atomic-calendar-revive
               style: |
@@ -71,6 +74,6 @@
 - on line 60: add the correct `entity` or `entities` to show
 
 
-### Result
-
+## Result
+---
 ![IMG_0544](https://user-images.githubusercontent.com/77990847/114402640-52bd1f80-9ba4-11eb-990e-7a04642bd641.PNG)
