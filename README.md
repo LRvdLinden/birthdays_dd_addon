@@ -15,7 +15,7 @@
   </a>
 </p>
 
-<p align="center">Present Birtdays in a nice way.</p>
+<p align="center">Show Birtdays in a nice way.</p>
 
 <p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
 </p> 
