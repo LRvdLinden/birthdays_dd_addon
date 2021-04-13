@@ -13,6 +13,9 @@
   <a href="https://github.com/LRvdLinden/LRvdLinden/birthdays_dd_addon">
     <img src="https://img.shields.io/github/commit-activity/m/LRvdLinden/LRvdLinden/birthdays_dd_addon" />
   </a>
+    <a href="https://github.com/LRvdLinden/birthdays_dd_addon">
+    <img src="https://img.shields.io/github/downloads/LRvdLinden/birthdays_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
+  </a>
 </p>
 
 <p align="center">Show Birtdays in a nice way.</p>
