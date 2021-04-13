@@ -8,10 +8,7 @@
     <img src="https://img.shields.io/badge/HACS-Default-orange.svg" />
   </a>
   <a href="https://github.com/LRvdLinden/LRvdLinden/birthdays_dd_addon">
-    <img src="https://img.shields.io/github/v/release/LRvdLinden/LRvdLinden/birthdays_dd_addon" />
-  </a>
-  <a href="https://github.com/LRvdLinden/LRvdLinden/birthdays_dd_addon">
-    <img src="https://img.shields.io/github/commit-activity/m/LRvdLinden/LRvdLinden/birthdays_dd_addon" />
+    <img src="https://img.shields.io/github/v/release/LRvdLinden/birthdays_dd_addon" />
   </a>
     <a href="https://github.com/LRvdLinden/birthdays_dd_addon">
     <img src="https://img.shields.io/github/downloads/LRvdLinden/birthdays_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
