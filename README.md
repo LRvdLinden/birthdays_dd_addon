@@ -75,7 +75,11 @@
                 - calendar.friends_birthdays
 ```
 - on line 69: add the correct `entity` or `entities` to show
+- change `maxDaysToShow` in the days that you want
 
+## Configuration ⚙️
+---
+`atomic-calendar-revive` is highly customizable. See Github [atomic-calendar-revive](https://marksie1988.github.io/atomic-calendar-revive/options/main-options.html) for all the options
 
 ## Result
 ---
