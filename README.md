@@ -65,6 +65,9 @@
                   display: none;
                 }
               showProgressBar: false
+              maxDaysToShow: 30
+              showMonth: true
+              showWeekDay: false
               eventBarColor: 'var(--dwains-theme-grey)'
               dayWrapperLineColor: 'var(--dwains-theme-grey)'
               timeColor: 'var(--dwains-theme-grey)'
