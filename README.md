@@ -74,7 +74,7 @@
               entities:
                 - calendar.friends_birthdays
 ```
-- on line 60: add the correct `entity` or `entities` to show
+- on line 69: add the correct `entity` or `entities` to show
 
 
 ## Result
